@@ -156,12 +156,9 @@ uint64_t BNHumanGetIndexOfChild(BNHumanBeing *humanPerson, BNHumanBeing *humanCh
 
 void BNHumanAddChild(BNHumanBeing *humanPerson, BNHumanBeing *humanChild) {
     if (NULL != humanPerson && NULL != humanChild) {
-<<<<<<< HEAD
+
         BNHumanAddChildToArray(humanPerson, humanChild);
         
-=======
-        BNArrayAddObject(humanPerson->_array, humanChild);
->>>>>>> ed570a4c47ac9151021269eab425aa3ba9d69b7b
         if (BNHumanGetGender(humanPerson) == BNHumanGenderMale) {
             BNHumanSetFather(humanChild, humanPerson);
         } else if (BNHumanGetGender(humanPerson) == BNHumanGenderFemale){
@@ -179,7 +176,6 @@ BNHumanBeing *BNHumanGetChildWithIndex(BNHumanBeing *humanPerson, uint64_t index
     return NULL;
 }
 
-<<<<<<< HEAD
 void BNHumanDeleteChildWithIndex(BNHumanBeing *humanPerson, uint16_t index) {
     if (NULL != humanPerson && index < BNHumanGetChildrenCount(humanPerson)) {
         BNHumanBeing *humanChild = BNHumanGetChildAtIndex(humanPerson, index);
@@ -192,16 +188,7 @@ void BNHumanDeleteChildWithIndex(BNHumanBeing *humanPerson, uint16_t index) {
             } else if (BNHumanGetGender(humanPerson) == BNHumanGenderFemale) {
                 BNHumanSetMother(humanChild, NULL);
             }
-=======
-void BNHumanDeleteChildWithIndex(BNHumanBeing *humanPerson, uint16_t index){
-    BNHumanBeing *humanChild = BNArrayGetObjectAtIndex(humanPerson->_array, index);
-    if (NULL != humanPerson && NULL != humanChild && index < BNHumanGetChildrenCount(humanPerson)) {
-        BNArrayRemoveObjectAtIndex(humanPerson->_array, index);
-        if (BNHumanGetGender(humanPerson) == BNHumanGenderMale) {
-            humanChild->_father = NULL;
-        } else if (BNHumanGetGender(humanPerson) == BNHumanGenderFemale){
-            humanChild->_mother = NULL;
->>>>>>> ed570a4c47ac9151021269eab425aa3ba9d69b7b
+
         }
     }
 }

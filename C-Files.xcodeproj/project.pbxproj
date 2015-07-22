@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EA88BF1B5F1D4C00BF98AE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88BE1B5F1D4C00BF98AE /* main.c */; };
+		84EA88FD1B5F1DFF00BF98AE /* BNArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88CA1B5F1DFF00BF98AE /* BNArray.c */; };
+		84EA88FE1B5F1DFF00BF98AE /* BNAutoreleasePool.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88CE1B5F1DFF00BF98AE /* BNAutoreleasePool.c */; };
+		84EA88FF1B5F1DFF00BF98AE /* BNAutoReleaseStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88D21B5F1DFF00BF98AE /* BNAutoReleaseStack.c */; };
+		84EA89001B5F1DFF00BF98AE /* BNHumanBeing.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88D51B5F1DFF00BF98AE /* BNHumanBeing.c */; };
+		84EA89011B5F1DFF00BF98AE /* BNLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88D91B5F1DFF00BF98AE /* BNLinkedList.c */; };
+		84EA89021B5F1DFF00BF98AE /* BNLinkedListEnumerator.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88DB1B5F1DFF00BF98AE /* BNLinkedListEnumerator.c */; };
+		84EA89031B5F1DFF00BF98AE /* BNLinkedListNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88DE1B5F1DFF00BF98AE /* BNLinkedListNode.c */; };
+		84EA89041B5F1DFF00BF98AE /* BNObject.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88E11B5F1DFF00BF98AE /* BNObject.c */; };
+		84EA89051B5F1DFF00BF98AE /* BNString.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88E41B5F1DFF00BF98AE /* BNString.c */; };
+		84EA89061B5F1DFF00BF98AE /* BNArrayTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88E81B5F1DFF00BF98AE /* BNArrayTest.c */; };
+		84EA89071B5F1DFF00BF98AE /* BNAutoreleasePoolTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88EB1B5F1DFF00BF98AE /* BNAutoreleasePoolTest.c */; };
+		84EA89081B5F1DFF00BF98AE /* BNAutoreleaseStackTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88EE1B5F1DFF00BF98AE /* BNAutoreleaseStackTest.c */; };
+		84EA89091B5F1DFF00BF98AE /* BNHumanBeingTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88F11B5F1DFF00BF98AE /* BNHumanBeingTest.c */; };
+		84EA890A1B5F1DFF00BF98AE /* BNLinkedListTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88F41B5F1DFF00BF98AE /* BNLinkedListTest.c */; };
+		84EA890B1B5F1DFF00BF98AE /* BNObjectTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88F71B5F1DFF00BF98AE /* BNObjectTest.c */; };
+		84EA890C1B5F1DFF00BF98AE /* BNStringTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 84EA88FA1B5F1DFF00BF98AE /* BNStringTest.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84EA88BA1B5F1D4C00BF98AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84EA88BC1B5F1D4C00BF98AE /* Autorelease Pool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Autorelease Pool"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EA88BE1B5F1D4C00BF98AE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		84EA88CA1B5F1DFF00BF98AE /* BNArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNArray.c; sourceTree = "<group>"; };
+		84EA88CB1B5F1DFF00BF98AE /* BNArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNArray.h; sourceTree = "<group>"; };
+		84EA88CC1B5F1DFF00BF98AE /* BNArrayPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNArrayPrivate.h; sourceTree = "<group>"; };
+		84EA88CE1B5F1DFF00BF98AE /* BNAutoreleasePool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNAutoreleasePool.c; sourceTree = "<group>"; };
+		84EA88CF1B5F1DFF00BF98AE /* BNAutoreleasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAutoreleasePool.h; sourceTree = "<group>"; };
+		84EA88D01B5F1DFF00BF98AE /* BNAutoreleasePoolPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAutoreleasePoolPrivate.h; sourceTree = "<group>"; };
+		84EA88D21B5F1DFF00BF98AE /* BNAutoReleaseStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNAutoReleaseStack.c; sourceTree = "<group>"; };
+		84EA88D31B5F1DFF00BF98AE /* BNAutoReleaseStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAutoReleaseStack.h; sourceTree = "<group>"; };
+		84EA88D51B5F1DFF00BF98AE /* BNHumanBeing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNHumanBeing.c; sourceTree = "<group>"; };
+		84EA88D61B5F1DFF00BF98AE /* BNHumanBeing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNHumanBeing.h; sourceTree = "<group>"; };
+		84EA88D71B5F1DFF00BF98AE /* BNMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNMacros.h; sourceTree = "<group>"; };
+		84EA88D91B5F1DFF00BF98AE /* BNLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNLinkedList.c; sourceTree = "<group>"; };
+		84EA88DA1B5F1DFF00BF98AE /* BNLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLinkedList.h; sourceTree = "<group>"; };
+		84EA88DB1B5F1DFF00BF98AE /* BNLinkedListEnumerator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNLinkedListEnumerator.c; sourceTree = "<group>"; };
+		84EA88DC1B5F1DFF00BF98AE /* BNLinkedListEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLinkedListEnumerator.h; sourceTree = "<group>"; };
+		84EA88DD1B5F1DFF00BF98AE /* BNLinkedListEnumeratorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLinkedListEnumeratorPrivate.h; sourceTree = "<group>"; };
+		84EA88DE1B5F1DFF00BF98AE /* BNLinkedListNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNLinkedListNode.c; sourceTree = "<group>"; };
+		84EA88DF1B5F1DFF00BF98AE /* BNLinkedListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLinkedListNode.h; sourceTree = "<group>"; };
+		84EA88E11B5F1DFF00BF98AE /* BNObject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNObject.c; sourceTree = "<group>"; };
+		84EA88E21B5F1DFF00BF98AE /* BNObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNObject.h; sourceTree = "<group>"; };
+		84EA88E41B5F1DFF00BF98AE /* BNString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNString.c; sourceTree = "<group>"; };
+		84EA88E51B5F1DFF00BF98AE /* BNString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNString.h; sourceTree = "<group>"; };
+		84EA88E81B5F1DFF00BF98AE /* BNArrayTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNArrayTest.c; sourceTree = "<group>"; };
+		84EA88E91B5F1DFF00BF98AE /* BNArrayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNArrayTest.h; sourceTree = "<group>"; };
+		84EA88EB1B5F1DFF00BF98AE /* BNAutoreleasePoolTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNAutoreleasePoolTest.c; sourceTree = "<group>"; };
+		84EA88EC1B5F1DFF00BF98AE /* BNAutoreleasePoolTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAutoreleasePoolTest.h; sourceTree = "<group>"; };
+		84EA88EE1B5F1DFF00BF98AE /* BNAutoreleaseStackTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNAutoreleaseStackTest.c; sourceTree = "<group>"; };
+		84EA88EF1B5F1DFF00BF98AE /* BNAutoreleaseStackTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNAutoreleaseStackTest.h; sourceTree = "<group>"; };
+		84EA88F11B5F1DFF00BF98AE /* BNHumanBeingTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNHumanBeingTest.c; sourceTree = "<group>"; };
+		84EA88F21B5F1DFF00BF98AE /* BNHumanBeingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNHumanBeingTest.h; sourceTree = "<group>"; };
+		84EA88F41B5F1DFF00BF98AE /* BNLinkedListTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNLinkedListTest.c; sourceTree = "<group>"; };
+		84EA88F51B5F1DFF00BF98AE /* BNLinkedListTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLinkedListTest.h; sourceTree = "<group>"; };
+		84EA88F71B5F1DFF00BF98AE /* BNObjectTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNObjectTest.c; sourceTree = "<group>"; };
+		84EA88F81B5F1DFF00BF98AE /* BNObjectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNObjectTest.h; sourceTree = "<group>"; };
+		84EA88FA1B5F1DFF00BF98AE /* BNStringTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BNStringTest.c; sourceTree = "<group>"; };
+		84EA88FB1B5F1DFF00BF98AE /* BNStringTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNStringTest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EA88B91B5F1D4C00BF98AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845AB2961B5F172D0076828E = {
+			isa = PBXGroup;
+			children = (
+				84EA88BD1B5F1D4C00BF98AE /* Autorelease Pool */,
+				845AB2A01B5F172D0076828E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845AB2A01B5F172D0076828E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88BC1B5F1D4C00BF98AE /* Autorelease Pool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EA88BD1B5F1D4C00BF98AE /* Autorelease Pool */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88C61B5F1DFF00BF98AE /* Autorelease Pool */,
+				84EA88BE1B5F1D4C00BF98AE /* main.c */,
+			);
+			path = "Autorelease Pool";
+			sourceTree = "<group>";
+		};
+		84EA88C61B5F1DFF00BF98AE /* Autorelease Pool */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88C81B5F1DFF00BF98AE /* Source */,
+				84EA88E61B5F1DFF00BF98AE /* Tests */,
+			);
+			name = "Autorelease Pool";
+			sourceTree = "<group>";
+		};
+		84EA88C81B5F1DFF00BF98AE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88C91B5F1DFF00BF98AE /* Array */,
+				84EA88CD1B5F1DFF00BF98AE /* AutoreleasePool */,
+				84EA88D11B5F1DFF00BF98AE /* AutoReleaseStack */,
+				84EA88D41B5F1DFF00BF98AE /* HumanBeing */,
+				84EA88D81B5F1DFF00BF98AE /* Linked List */,
+				84EA88E01B5F1DFF00BF98AE /* Object */,
+				84EA88E31B5F1DFF00BF98AE /* String */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		84EA88C91B5F1DFF00BF98AE /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88CA1B5F1DFF00BF98AE /* BNArray.c */,
+				84EA88CB1B5F1DFF00BF98AE /* BNArray.h */,
+				84EA88CC1B5F1DFF00BF98AE /* BNArrayPrivate.h */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		84EA88CD1B5F1DFF00BF98AE /* AutoreleasePool */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88CE1B5F1DFF00BF98AE /* BNAutoreleasePool.c */,
+				84EA88CF1B5F1DFF00BF98AE /* BNAutoreleasePool.h */,
+				84EA88D01B5F1DFF00BF98AE /* BNAutoreleasePoolPrivate.h */,
+			);
+			path = AutoreleasePool;
+			sourceTree = "<group>";
+		};
+		84EA88D11B5F1DFF00BF98AE /* AutoReleaseStack */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88D21B5F1DFF00BF98AE /* BNAutoReleaseStack.c */,
+				84EA88D31B5F1DFF00BF98AE /* BNAutoReleaseStack.h */,
+			);
+			path = AutoReleaseStack;
+			sourceTree = "<group>";
+		};
+		84EA88D41B5F1DFF00BF98AE /* HumanBeing */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88D51B5F1DFF00BF98AE /* BNHumanBeing.c */,
+				84EA88D61B5F1DFF00BF98AE /* BNHumanBeing.h */,
+				84EA88D71B5F1DFF00BF98AE /* BNMacros.h */,
+			);
+			path = HumanBeing;
+			sourceTree = "<group>";
+		};
+		84EA88D81B5F1DFF00BF98AE /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88D91B5F1DFF00BF98AE /* BNLinkedList.c */,
+				84EA88DA1B5F1DFF00BF98AE /* BNLinkedList.h */,
+				84EA88DB1B5F1DFF00BF98AE /* BNLinkedListEnumerator.c */,
+				84EA88DC1B5F1DFF00BF98AE /* BNLinkedListEnumerator.h */,
+				84EA88DD1B5F1DFF00BF98AE /* BNLinkedListEnumeratorPrivate.h */,
+				84EA88DE1B5F1DFF00BF98AE /* BNLinkedListNode.c */,
+				84EA88DF1B5F1DFF00BF98AE /* BNLinkedListNode.h */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
+		84EA88E01B5F1DFF00BF98AE /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88E11B5F1DFF00BF98AE /* BNObject.c */,
+				84EA88E21B5F1DFF00BF98AE /* BNObject.h */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		84EA88E31B5F1DFF00BF98AE /* String */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88E41B5F1DFF00BF98AE /* BNString.c */,
+				84EA88E51B5F1DFF00BF98AE /* BNString.h */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		84EA88E61B5F1DFF00BF98AE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88E71B5F1DFF00BF98AE /* Array */,
+				84EA88EA1B5F1DFF00BF98AE /* AutoreleasePool */,
+				84EA88ED1B5F1DFF00BF98AE /* AutoreleaseStack */,
+				84EA88F01B5F1DFF00BF98AE /* HumanBeing */,
+				84EA88F31B5F1DFF00BF98AE /* LinkedList */,
+				84EA88F61B5F1DFF00BF98AE /* Object */,
+				84EA88F91B5F1DFF00BF98AE /* String */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		84EA88E71B5F1DFF00BF98AE /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88E81B5F1DFF00BF98AE /* BNArrayTest.c */,
+				84EA88E91B5F1DFF00BF98AE /* BNArrayTest.h */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		84EA88EA1B5F1DFF00BF98AE /* AutoreleasePool */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88EB1B5F1DFF00BF98AE /* BNAutoreleasePoolTest.c */,
+				84EA88EC1B5F1DFF00BF98AE /* BNAutoreleasePoolTest.h */,
+			);
+			path = AutoreleasePool;
+			sourceTree = "<group>";
+		};
+		84EA88ED1B5F1DFF00BF98AE /* AutoreleaseStack */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88EE1B5F1DFF00BF98AE /* BNAutoreleaseStackTest.c */,
+				84EA88EF1B5F1DFF00BF98AE /* BNAutoreleaseStackTest.h */,
+			);
+			path = AutoreleaseStack;
+			sourceTree = "<group>";
+		};
+		84EA88F01B5F1DFF00BF98AE /* HumanBeing */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88F11B5F1DFF00BF98AE /* BNHumanBeingTest.c */,
+				84EA88F21B5F1DFF00BF98AE /* BNHumanBeingTest.h */,
+			);
+			path = HumanBeing;
+			sourceTree = "<group>";
+		};
+		84EA88F31B5F1DFF00BF98AE /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88F41B5F1DFF00BF98AE /* BNLinkedListTest.c */,
+				84EA88F51B5F1DFF00BF98AE /* BNLinkedListTest.h */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		84EA88F61B5F1DFF00BF98AE /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88F71B5F1DFF00BF98AE /* BNObjectTest.c */,
+				84EA88F81B5F1DFF00BF98AE /* BNObjectTest.h */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		84EA88F91B5F1DFF00BF98AE /* String */ = {
+			isa = PBXGroup;
+			children = (
+				84EA88FA1B5F1DFF00BF98AE /* BNStringTest.c */,
+				84EA88FB1B5F1DFF00BF98AE /* BNStringTest.h */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EA88BB1B5F1D4C00BF98AE /* Autorelease Pool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EA88C01B5F1D4C00BF98AE /* Build configuration list for PBXNativeTarget "Autorelease Pool" */;
+			buildPhases = (
+				84EA88B81B5F1D4C00BF98AE /* Sources */,
+				84EA88B91B5F1D4C00BF98AE /* Frameworks */,
+				84EA88BA1B5F1D4C00BF98AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autorelease Pool";
+			productName = "Autorelease Pool";
+			productReference = 84EA88BC1B5F1D4C00BF98AE /* Autorelease Pool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845AB2971B5F172D0076828E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = BenNovikov;
+				TargetAttributes = {
+					84EA88BB1B5F1D4C00BF98AE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 845AB29A1B5F172D0076828E /* Build configuration list for PBXProject "C-Files" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 845AB2961B5F172D0076828E;
+			productRefGroup = 845AB2A01B5F172D0076828E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EA88BB1B5F1D4C00BF98AE /* Autorelease Pool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EA88B81B5F1D4C00BF98AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EA89041B5F1DFF00BF98AE /* BNObject.c in Sources */,
+				84EA89031B5F1DFF00BF98AE /* BNLinkedListNode.c in Sources */,
+				84EA89091B5F1DFF00BF98AE /* BNHumanBeingTest.c in Sources */,
+				84EA88FE1B5F1DFF00BF98AE /* BNAutoreleasePool.c in Sources */,
+				84EA89081B5F1DFF00BF98AE /* BNAutoreleaseStackTest.c in Sources */,
+				84EA890A1B5F1DFF00BF98AE /* BNLinkedListTest.c in Sources */,
+				84EA88FD1B5F1DFF00BF98AE /* BNArray.c in Sources */,
+				84EA89061B5F1DFF00BF98AE /* BNArrayTest.c in Sources */,
+				84EA89011B5F1DFF00BF98AE /* BNLinkedList.c in Sources */,
+				84EA89001B5F1DFF00BF98AE /* BNHumanBeing.c in Sources */,
+				84EA88FF1B5F1DFF00BF98AE /* BNAutoReleaseStack.c in Sources */,
+				84EA890C1B5F1DFF00BF98AE /* BNStringTest.c in Sources */,
+				84EA89071B5F1DFF00BF98AE /* BNAutoreleasePoolTest.c in Sources */,
+				84EA89021B5F1DFF00BF98AE /* BNLinkedListEnumerator.c in Sources */,
+				84EA890B1B5F1DFF00BF98AE /* BNObjectTest.c in Sources */,
+				84EA89051B5F1DFF00BF98AE /* BNString.c in Sources */,
+				84EA88BF1B5F1D4C00BF98AE /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		845AB2A41B5F172D0076828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		845AB2A51B5F172D0076828E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84EA88C11B5F1D4C00BF98AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84EA88C21B5F1D4C00BF98AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845AB29A1B5F172D0076828E /* Build configuration list for PBXProject "C-Files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845AB2A41B5F172D0076828E /* Debug */,
+				845AB2A51B5F172D0076828E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EA88C01B5F1D4C00BF98AE /* Build configuration list for PBXNativeTarget "Autorelease Pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EA88C11B5F1D4C00BF98AE /* Debug */,
+				84EA88C21B5F1D4C00BF98AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845AB2971B5F172D0076828E /* Project object */;
+}

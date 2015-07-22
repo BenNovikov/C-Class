@@ -95,7 +95,7 @@ void BNLinkedListTest(void) {
     assert(true == BNLinkedListIsEmpty(list));
     
     //  create some new objects
-    uint16_t const objectsNumber = 20000;
+    uint16_t const objectsNumber = 5000;
     static BNString *object[objectsNumber];
     char text[7 + snprintf(0,0,"%+d", objectsNumber)];
     for (uint64_t index = 0; index < objectsNumber; index++) {

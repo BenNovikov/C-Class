@@ -54,26 +54,13 @@ BNObject *BNLinkedListNodeGetObject(BNLinkedListNode *node) {
     return BNLinkedListNodeGetObjectField(node);
 }
 
-<<<<<<< HEAD
+
 void BNLinkedListNodeSetObject(BNLinkedListNode *node, void *object) {
     if ((BNLinkedListNodeGetObjectField(node)) != object) {
         BNLinkedListNodeSetObjectFiled(node, object);
-=======
-void BNLinkedListNodeSetObject(BNLinkedListNode *node, void *object){
-    if (NULL != node) {
-        node->_object = object;
-        if (NULL != object) {
-            BNObjectRetain(object);
-        } else {
-            node->_object = object;
-        }
-        
->>>>>>> ed570a4c47ac9151021269eab425aa3ba9d69b7b
     }
-    
 }
 
-<<<<<<< HEAD
 #pragma mark -
 #pragma mark Private Implementation
 
@@ -87,12 +74,8 @@ void BNLinkedListNodeSetNextNodeField(BNLinkedListNode *node, BNLinkedListNode *
 
 BNObject *BNLinkedListNodeGetObjectField(BNLinkedListNode *node) {
     return BNGetObjectVar(node, _object);
-=======
-void __BNLinkedListNodeDeallocate(void *object){
-    BNLinkedListNodeSetObject(NULL, object);
-    BNObjectRelease(object);
->>>>>>> ed570a4c47ac9151021269eab425aa3ba9d69b7b
 }
+
 
 void BNLinkedListNodeSetObjectFiled(BNLinkedListNode *node, void *object) {
     BNRetainSetter(node, _object, object);

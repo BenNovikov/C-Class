@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Human
+//  Autorelease Pool
 //
 //  Created by BenNovikov on 30.05.15.
 //  Copyright (c) 2015 ___Basic_Notation___. All rights reserved.
@@ -23,7 +23,7 @@ int main(int argc, const char * argv[])
     BNObjectLaunchTest(BNArrayTestRun());
     BNObjectLaunchTest(BNStringTestRun());
     BNObjectLaunchTest(BNHumanBeingTestRun());
-    BNObjectLaunchTest(BNLinkedListTestRun());    
+    BNObjectLaunchTest(BNLinkedListTestRun());
     BNObjectLaunchTest(BNAutoreleaseStackTestRun());
     BNObjectLaunchTest(BNAutoreleasePoolTestRun());
     

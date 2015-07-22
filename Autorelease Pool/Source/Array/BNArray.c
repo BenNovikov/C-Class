@@ -123,18 +123,12 @@ void BNArraySetObjectAtIndex(void *array, void *object, uint64_t index) {
 
 void BNArrayRemoveObjectAtIndex(void *array, uint64_t index) {
     uint64_t count = BNArrayGetCount(array);
-<<<<<<< HEAD
+
     if (NULL != array && index < count) {
         BNArraySetObjectAtIndex(array, NULL, index);
         
         void **data = BNArrayGetDataField(array);
         memmove(&data[index], &data[index + 1], (count - 1 - index) * sizeof(*data));
-=======
-    if (NULL != array && index < count && NULL != BNArrayGetObjectAtIndex(array, index)) {
-        BNArraySetObjectAtIndex(array, index, NULL);
-
-        memmove(&(((BNArray *)array)->_data[index]), &(((BNArray *)array)->_data[index+1]), (count - 1 - index) * sizeof(*((BNArray *)array)->_data));
->>>>>>> ed570a4c47ac9151021269eab425aa3ba9d69b7b
         
         BNArraySetCount(array, count - 1);
     }
@@ -152,7 +146,6 @@ void BNArrayRemoveAllObjects(void *array) {
 #pragma mark -
 #pragma mark Private Implementations
 
-<<<<<<< HEAD
 void BNArraySetCount(BNArray *array, uint64_t count) {
     assert(count < kBNMaxCount);
     
@@ -172,19 +165,6 @@ void BNArraySetCount(BNArray *array, uint64_t count) {
             array->_data = realloc(array->_data, capacity);
             memset(array->_data + count, 0, kBNExpand * sizeof(*array->_data));
             assert(NULL != array->_data);
-=======
-void BNArraySetCount(void *array, uint64_t count){
-    if (NULL != array && count < kBNNotFound) {
-        ((BNArray *)array)->_count = count;
-        uint64_t capacity = BNArrayDefineOptimalCapacity(array);
-        void **data = ((BNArray *)array)->_data;
-        size_t size = capacity * sizeof(*data);
-        if (0 == size && NULL != data) {
-            free(((BNArray *)array)->_data);
-            *data = NULL;
-        } else {
-            ((BNArray *)array)->_data = realloc(((BNArray *)array)->_data, size);
->>>>>>> ed570a4c47ac9151021269eab425aa3ba9d69b7b
         }
     }
 }
